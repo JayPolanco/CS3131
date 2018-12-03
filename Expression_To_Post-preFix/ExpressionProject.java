@@ -7,6 +7,11 @@ import java.util.Stack;
 public class ExpressionProject extends ExpressionTree {
 
    public static void main(String args[]) {
+      /*Replace the expression below to test a different expression when executed.
+      Then you may enter a mathematical expression on the keyboard which
+      will also get made into a binary tree. It will then be printed in post/in-fix notation
+      as well as fully parenthesized.
+      */
       ExpressionProject y = new ExpressionProject("4 + (ax / 1) - x*2 ");
       Utility.print(y);
       y = new ExpressionProject(Utility.getInput());
